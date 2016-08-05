@@ -1,4 +1,8 @@
 # math
+
+**This was *not* written by the Engo project. The original author decided to remove the original project from GitHub, we were given permission to reupload the code as long as we did not credit them.**
+
+
 This library is a copy of the standard math library but for float32 (more common in computer graphics and games. Most of the function are simply casting the arguments as `float64` and forwarding to the original math library (something you would have to do anyway, but slowly we are translating the original function to the `float32` version.  
 ALL tests are passing, meaning whatever program you we're running using the 64 bit version should still be correct using this library (using the IEEE floating point definition of "correct").  
 I only care about i386 and amd64, but if I receive pull request for other architecture I will merge them (I can't test it so please send me proof that all test pass and benchmark are better :)
