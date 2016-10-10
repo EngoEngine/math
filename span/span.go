@@ -1,7 +1,7 @@
 package span
 
 import (
-	"github.com/luxengine/math"
+	"github.com/engoengine/math"
 )
 
 // Span represents an interval.
