@@ -3,9 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // +build ppc64 ppc64le
+// +build !js
 
 #include "textflag.h"
 
-// func Sqrt(x float32) float32	
+// func Sqrt(x float32) float32
 TEXT ·Sqrt(SB),NOSPLIT,$0
 	JMP ·sqrt(SB)
