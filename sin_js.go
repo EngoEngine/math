@@ -11,5 +11,5 @@ func Cos(x float32) float32 {
 }
 
 func Sin(x float32) float32 {
-	return float32(stdmath.Cos(float64(x)))
+	return float32(stdmath.Sin(float64(x)))
 }
