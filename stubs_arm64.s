@@ -3,17 +3,18 @@
 // license that can be found in the LICENSE file.
 
 // +build arm64
+// +build !js
 
 #include "textflag.h"
 
-// func Sqrt(x float32) float32	
+// func Sqrt(x float32) float32
 TEXT ·Sqrt(SB),NOSPLIT,$0
 	JMP ·sqrt(SB)
 
-// func Cos(x float32) float32	
+// func Cos(x float32) float32
 TEXT ·Cos(SB),NOSPLIT,$0
 	JMP ·cos(SB)
 
-// func Sin(x float32) float32	
+// func Sin(x float32) float32
 TEXT ·Sin(SB),NOSPLIT,$0
 	JMP ·sin(SB)

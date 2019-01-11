@@ -5,6 +5,8 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+// +build !js
+
 #include "textflag.h"
 
 // func Cos(x float32) float32
@@ -48,4 +50,3 @@ TEXT ·Sin(SB),NOSPLIT,$0
   FSIN                 // F0=sin(reduced_x)
   FMOVFP  F0, ret+4(FP)
   RET
-
